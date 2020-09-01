@@ -1,0 +1,17 @@
+[package]
+name = "fromthumb"
+version = "0.1.0"
+authors = ["Tom Milligan <tom@reinfer.io>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+image = "0.23.8"
+img_hash = "3.1.0"
+anyhow = "1.0.32"
+rayon = "1.4.0"
+opencv = "0.45.1"
+structopt = "0.3.17"
+env_logger = "0.7.1"
+log = "0.4.11"
